@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+font-size: 64px;
+font-style: normal;
+
+}
+h2{
+    font-size: 48px;
+    color:#f44336;
+}
+body{
+    font-size: 16px;
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    margin-left: 340px;
+    margin-right: 50px;
+   
+}
+
+nav{ 
+flex-direction: column;
+display: flex;
+background-color: #F44336;
+padding: 10px;
+gap: 10px;
+position: fixed;
+width: 290px;
+height: 100%;
+left: -10px;
+top: -10px;
+}
+
+.menu{
+    margin: 80px 10px 0px 20px;
+}
+nav h3 {
+padding: 10px;
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.image{
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+     gap: 15px;
+}
+.img
+{
+    width: 420px;
+    opacity: 0.8;
+}
+.img:hover
+{
+    opacity: 1;
+}
+
+
+nav li{
+    list-style: none;
+}
+nav li a {
+display: block;
+color: white;
+padding: 8px 16px;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+font-weight: 500;
+font-size: 20px;
+height: 32px;
+width: 220px;
+
+}
+li a:hover{
+    background-color:white;
+    color: black;
+}
+
+.profession{
+    font-size: 18px;
+    color: #808080;
+    margin-left: 20px;
+}
+.wrapper{
+    display: flex;
+}
+.team{
+  width: 100%;
+  }
+
+.John{
+    background-color: #f1f1f1;
+    padding-bottom: 20px;
+    margin: 10px;
+    filter: grayscale(0.8);
+    
+}
+.h3{
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.text {
+    margin-left: 20px;
+    font-size: 19px;
+}
+#table  {
+
+    display: flex;
+    gap:15px;
+}
+ table  {
+   text-align: center; 
+   background-color: #F1F1F1;
+   width: 515px;
+   height: 495px;
+   font-family: 'poppins',sans-serif;
+
+ }
+ .table2 th {
+    border-bottom: 1px solid #f44336;
+    padding: 10px 140px;
+    color: white;
+    background-color: #f44336;
+    height:100px ;
+    font-size: 25px;
+ }
+ 
+ .table2 tr td{
+    padding: 17px 16px;
+    border-bottom: 1px solid #ddd;
+ }
+  .price{
+    font-size: 30px;
+    font-family: 'poppins';
+  }
+   .opacity{
+    opacity: 0.6;
+   }
+
+ .table2 button{
+    width: 109px;
+    height: 55px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 15px;
+ }
+ .table2 button:hover{
+    background-color: black;
+    color: white;
+ }
+ .table1 th {
+    border-bottom: 1px solid;
+    padding: 10px 40px;
+    color: white;
+    background-color: #616161;
+    height: 100px;
+    font-size: 25px;
+ }
+
+ .table1 tr td{
+    padding: 17px 16px;
+    border-bottom: 1px solid #ddd;
+ }
+
+.price2{
+  font-size: 30px;
+  font-family: 'poppins';
+}
+ .opacity2{
+  opacity: 0.6;
+ }
+ .table1 button{
+    width: 109px;
+    height: 55px;
+    background-color:white;
+    color:black;
+    border: none;
+    font-size: 15px;
+ }
+ .table1 button:hover{
+    background-color: black;
+    color:white;
+ }
+ hr {
+    height: 0px;
+    width: 50px;
+    color: #FFFFFF;
+    border: solid 5px red;
+    border-radius: 22px;
+    margin-left: 0px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #F44336 ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 875px;
+    height: 44px;
+  }
+  input[type=submit]:hover {
+    background-color:rgb(223, 218, 218) ;
+    color: black;
+  }
+  footer
+{
+    background-color:#f1f1f1;
+    margin-top: 75px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: -16px;
+    right: 0%;
+}
+
+.icons
+{
+    padding-left:25%;
+    display: flex;
+}
+.icon{
+    padding: 10px;
+
+}
+.copyright{
+    float: right;
+    margin-right: 50px;
+}
+.copyright a{
+    text-decoration: underline;
+}
